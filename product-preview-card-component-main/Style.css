@@ -31,8 +31,8 @@ justify-content: center;
 .caja{
     text-align: left;
     background-color: var(--White);
-    margin-top: 1rem;
-    padding: 1rem;
+    border-radius: 0.6rem;
+    width:100%; 
 }
 
 .caja2 h1{
@@ -48,7 +48,11 @@ justify-content: center;
 color: var(--Dark);
 }
 
-.contenido span{
+.numero:hover, .numero__2{
+    text-decoration: line-through;
+}
+
+.numero{
     color: var(--Green);
     font-size: 30px;
     font-family:'Fraunces', serif ;
@@ -57,16 +61,20 @@ color: var(--Dark);
 
 .image{
     background-image: url(./images/image-product-mobile.jpg);
-    width: 350px;
-    height: 200px;
-    border-radius: 10px;
+    height: 300px;
+    max-width: auto;
+    border-radius: 0.6rem;
     background-size: cover;
     position: relative;
 }
 
-.img{
-   position: absolute;
+
+button{
+    background-color: var(--Green);
+    color: var(--White);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 0.6rem;
     width: 100%;
-    height: 100%;
-    border-radius: 6px; 
+    padding: 2rem;
 }
