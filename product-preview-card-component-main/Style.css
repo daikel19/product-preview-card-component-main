@@ -33,6 +33,8 @@ justify-content: center;
     background-color: var(--White);
     border-radius: 0.6rem;
     width:100%; 
+    margin-top: 3rem;
+    padding: 1rem;
 }
 
 .caja2 h1{
@@ -46,6 +48,7 @@ justify-content: center;
 
 .contenido p{
 color: var(--Dark);
+font-size: 1.5rem;
 }
 
 .numero:hover, .numero__2{
@@ -62,10 +65,14 @@ color: var(--Dark);
 .image{
     background-image: url(./images/image-product-mobile.jpg);
     height: 300px;
-    max-width: auto;
+    max-width: 100%;
     border-radius: 0.6rem;
     background-size: cover;
     position: relative;
+}
+.img{
+    width: 100%;
+    border-radius: 1rem 1rem 0rem;
 }
 
 
