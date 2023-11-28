@@ -33,9 +33,13 @@ justify-content: center;
     background-color: var(--White);
     border-radius: 0.6rem;
     width:100%; 
-    margin-top: 3rem;
-    padding: 1rem;
+    
 }
+
+.caja2{
+    margin: 1rem;
+}
+
 
 .caja2 h1{
     font-family: 'Fraunces', serif;
@@ -46,6 +50,10 @@ justify-content: center;
     color: var(--Dark);
 }
 
+.contenido{
+    margin: 1rem;
+}
+
 .contenido p{
 color: var(--Dark);
 font-size: 1.5rem;
@@ -53,6 +61,8 @@ font-size: 1.5rem;
 
 .numero:hover, .numero__2{
     text-decoration: line-through;
+
+    margin: 1rem;
 }
 
 .numero{
@@ -65,7 +75,7 @@ font-size: 1.5rem;
 .image{
     background-image: url(./images/image-product-mobile.jpg);
     height: 300px;
-    max-width: 100%;
+    max-width: 200%;
     border-radius: 0.6rem;
     background-size: cover;
     position: relative;
