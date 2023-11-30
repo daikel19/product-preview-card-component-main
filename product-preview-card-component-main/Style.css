@@ -36,7 +36,7 @@ body {
 
 .caja2 {
   margin: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .caja2 p{
@@ -50,6 +50,7 @@ body {
 
 .caja2 h2 {
   color: var(--Dark);
+  font-size: 15px;
 }
 
 .numero__2 {
