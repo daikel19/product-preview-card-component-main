@@ -31,7 +31,6 @@ body {
   width: 100%;
   max-width: 40rem;
   margin: 0 auto;
-  
 }
 
 .caja2 {
@@ -39,7 +38,7 @@ body {
   padding: 1rem;
 }
 
-.caja2 p{
+.caja2 p {
   color: var(--Dark);
 }
 
@@ -56,16 +55,12 @@ body {
 .numero__2 {
   text-decoration: line-through;
   margin: 1rem;
-
-  
-  
 }
 
 .numero {
   color: var(--Green);
   font-size: 30px;
   font-family: "Fraunces", serif;
-  
 }
 
 .img {
@@ -74,7 +69,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
-  border-radius: 1rem 1rem 0rem 0rem ;
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 
 button {
@@ -102,7 +97,6 @@ button {
   .caja {
     display: flex;
     max-width: 65rem;
-    
   }
   .img {
     background-image: url(./images/image-product-desktop.jpg);
@@ -112,7 +106,7 @@ button {
     background-repeat: no-repeat;
     border-radius: 1rem 0rem 0rem 1rem;
   }
-  body{
+  body {
     margin: 20rem;
   }
 }
